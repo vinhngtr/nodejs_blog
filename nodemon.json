@@ -1,0 +1,4 @@
+{
+  "_comment": "lắng nghe modifile của các file có đuôi js, json, scss",
+  "ext": "js json"
+}
