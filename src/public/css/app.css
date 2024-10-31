@@ -1,3 +1,47 @@
+body, html {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.app .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 20px 0;
+}
+.app footer {
+  margin-top: auto;
+}
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%5D,%22names%22:%5B%5D,%22mappings%22:%22%22,%22file%22:%22app.css%22%7D */
+input {
+  outline: none;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+  border: 2px solid #faf0f0;
+  border-radius: 10px;
+}
+.search-form .form-group {
+  width: 100%;
+  display: grid;
+  gap: 5px;
+}
+.search-form .form-check {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../resource/scss/app.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAEA;EACI;EAEA;EACA;;;AAEJ;EACI;EACA;EACA;;AACA;EACI;EACA;EACA;EACA;EACA;;AAEJ;EACI;;;AAGR;EACI;;;AAEJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;EACA;EACA;;AAEJ;EACI;EACA;EACA%22,%22file%22:%22app.css%22%7D */
